@@ -66,7 +66,7 @@ st.markdown("<h1 class='title'>🤖 فهمان – خبير المسارات ا�
 
 st.write("اكتب أي تراك عايز تتعلمه، وفهمان هيبني لك Roadmap + مصادر.")
 
-GENAI_KEY = "AIzaSyCQs_eYt7yGFZR-vYkwEE-E9bAhw6T4JnI"
+GENAI_KEY = "AIzaSyDlhQ1uJc9GgghleDU3gfgEUglEw6lM2wo"
 genai.configure(api_key=GENAI_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
